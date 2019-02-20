@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM s390x/alpine
 
 RUN apk update \
     && apk upgrade \
