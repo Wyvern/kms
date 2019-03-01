@@ -6,7 +6,7 @@ RUN apk update \
     && cd / \
     && git clone https://github.com/Wind4/vlmcsd.git vlmgit \
     && cd vlmgit \
-    && make \
+    && make -j \
     && chmod +x bin/vlmcsd \
     && mv bin/vlmcsd / \
     && cd / \
